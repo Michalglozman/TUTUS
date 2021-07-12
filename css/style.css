@@ -142,8 +142,8 @@ footer a{
     text-size-adjust: 15px;
 }
 .tableSum{
-   
-    font-family: 'Roboto Condensed', sans-serif;    margin-left: -70px ;
+    margin-left: auto;
+    font-family: 'Roboto Condensed', sans-serif; 
     border-color:white ;
 }
 .colorBar{

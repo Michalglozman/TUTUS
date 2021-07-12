@@ -113,10 +113,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                           </tr>
                       </tbody>
                   </table>
+                  <h2>Current ride indices</h2>
+                    <p>The results of the driving data percentages are analyzed from this ride</p>
+                    <label>Balance</label>
+                    <div class="progress">
+                        <div class="progress-bar colorBar" role="progressbar" style="width: <?php echo $balance?>%" aria-valuenow="<?php echo $balance?>" aria-valuemin="0" aria-valuemax="100" ><?php echo $balance?>%</div>
+                    </div>
                   </div>
                 </div>
             </div>
-
+        
             <footer class="footer fixed-bottom mt-auto py-3 bg-light">
                 <div class="container">
                     <ul id="footerNav" class="nav justify-content-center">
