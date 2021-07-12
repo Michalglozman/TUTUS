@@ -1,9 +1,9 @@
 const dataDunat = {
-  labels: ['Score to go','My total feedback score' 
+  labels: ['Score to go','My last feedback score' 
     
   ],
   datasets: [{
-    label: 'Total feedback score',
+    label: 'last feedback score',
     data: [25,75],
     backgroundColor: [
       'rgba(211,211,211)',
