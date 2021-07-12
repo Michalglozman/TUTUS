@@ -116,38 +116,36 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                 </div>
             </div>
 
-        <footer class="footer fixed-bottom mt-auto py-3 bg-light">
-            <div class="container">
-                <ul id="footerNav" class="nav justify-content-center">
-                    <li class="nav-item text-center " >
-                      <a class="nav-link" href="index.php">
-                          <img class="center footerIcon" src="img/house-door.svg">
-                          
-                          <span class="navFooterText">Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active text-center navSpace" >
-                        <a class="nav-link" href="Myride.php">
-                            <img class="center footerIcon" src="img/clock.svg">
-                            
-                            <span class="navFooterText">My Rides</span>
-                          </a>
-                      </li>
-                      <li class="nav-item text-center navSpace" >
-                        <a class="nav-link" href="friends_rides.php">
-                            <img class="center footerIcon" src="img/clipboard.svg">
-                            
-                            <span class="navFooterText">Friends Rides</span>
-                          </a>
-                      </li>
-                      <li class="nav-item text-center navSpace" >
-                        <a class="nav-link " href="profile.php">
-                            <img class="center footerIcon" src="img/person.svg">
-                            <span class="navFooterText">Profile</span>
-                          </a>
-                      </li>
-                  </ul>
-            </div>
-        </footer>
+            <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+                <div class="container">
+                    <ul id="footerNav" class="nav justify-content-center">
+                        <li class="nav-item text-center " >
+                          <a class="nav-link" href="index.php">
+                              <img class="center footerIcon" src="img/house-door.svg">
+                              <span class="navFooterText">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active text-center navSpace" >
+                            <a class="nav-link" href="Myride.php">
+                                <img class="center footerIcon" src="img/clock.svg">
+                                <span class="navFooterText">My Rides</span>
+                              </a>
+                          </li>
+                          <li class="nav-item text-center navSpace" >
+                            <a class="nav-link" href="friends_rides.php">
+                                <img class="center footerIcon" src="img/clipboard.svg">
+                                <span class="navFooterText">Friends Ride</span>
+                              </a>
+                          </li>
+                          <li class="nav-item text-center navSpace" >
+                            <a class="nav-link " href="profile.php">
+                                <img class="center footerIcon" src="img/person.svg">
+                                
+                                <span class="navFooterText">Profile</span>
+                              </a>
+                          </li>
+                      </ul>
+                </div>
+            </footer>
     </body>
 </html>
