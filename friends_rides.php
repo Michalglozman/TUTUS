@@ -97,24 +97,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
                   echo "<table class=\"table achiv-table table-striped\">";
                   echo "<tbody>";
                   echo "<tr>"; 
-                  echo "<td>";
-                  echo "<span>Date</span>";
-                  echo "</td>";
-                  echo "<td>";
-                  echo "<span>Distance</span>";
-                  echo "</td>";
-                  echo "<td>";
-                  echo "<span>Starting Time</span>";
-                  echo "</td>";
-                  echo "<td>";
-                  echo "<span>End Time</span>";
-                  echo "</td>";
-                  echo "<td>";
-                  echo "<span>Points</span>";
-                  echo "</td>";
-                  echo "<td>";
-                  echo "<span>Rate</span>";
-                  echo "</td>";
+                  echo "<th>Date</th>";
+                  echo "<th>Time</th>";
+                  echo "<th>Points</th>";
+                  echo "<th>Rate</th>";
                   echo "</tr>";
                   while($row_ride = mysqli_fetch_assoc($result_rides)) {
                     $rating=$row_ride['driverInputPoints'];
@@ -143,15 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
                     echo "</td>";
 
                     echo "<td>";
-                    echo $row_ride['distance'];
-                    echo "</td>";
-
-                    echo "<td>";
-                    echo $row_ride['start_time'];
-                    echo "</td>";
-
-                    echo "<td>";
-                    echo $row_ride['end_time'];
+                    echo $row_ride['start_time']."-".$row_ride['end_time'];;
                     echo "</td>";
 
                     echo "<td>";
@@ -159,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' ) {
                     echo "</td>";
                     
                     echo "<td>";
-                    echo "<button type=\"button\" class=\"btn btn-warning open-AddNameUser\" data-toggle=\"modal\" data-target=\"#exampleModal\" data-date=\"".$row_ride["date"]."\" data-id=\"".$row_ride ["ride_id"]. "\" title=\"Rate\"><i class=\"fa fa-star\"> Rate</i></button>";
+                    echo "<button type=\"button\" class=\"btn btn-warning btn-sm open-AddNameUser\" data-toggle=\"modal\" data-target=\"#exampleModal\" data-date=\"".$row_ride["date"]."\" data-id=\"".$row_ride ["ride_id"]. "\" title=\"Rate\"><i class=\"fa fa-star-o\"></i></button>";
                     echo "</td>";
 
                     echo "</tr>";
