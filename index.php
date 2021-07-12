@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                           </a>
                       </li>
                       <li class="nav-item text-center navSpace" >
-                        <a class="nav-link " href="#">
+                        <a class="nav-link " href="profile.php">
                             <img class="center footerIcon" src="img/person.svg">
                             
                             <span class="navFooterText">Profile</span>

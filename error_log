@@ -1,0 +1,17 @@
+[11-Jul-2021 20:28:49 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:28:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:29:03 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:29:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:30:28 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:30:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:33:49 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:33:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:39:29 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:39:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:40:42 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 20:40:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
+[11-Jul-2021 20:40:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/Myride.php on line 154
+[11-Jul-2021 20:41:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/Myride.php on line 154
+[11-Jul-2021 20:41:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/friends_rides.php on line 68
+[11-Jul-2021 22:28:41 UTC] PHP Notice:  Undefined index: user_id in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 14
+[11-Jul-2021 22:28:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/zgk29jy57r32/public_html/students/2020-2021/web1/dev_209/index.php on line 30
