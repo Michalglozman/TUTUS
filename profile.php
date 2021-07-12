@@ -56,7 +56,7 @@
                     <div class="row justify-content-end">
                         <div class="col-4"><h6 class="text-center">Profile</h6></div>
                         <div class="col-4 ">
-                            <a href="index.html" id="logo"></a>
+                            <a href="index.php" id="logo"></a>
                         </div>
                     </div>
             </header>

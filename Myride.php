@@ -125,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                 <div class="row justify-content-end">
                     <div class="col-4"><h5 class="text-center">My Ride</h5></div>
                     <div class="col-4 ">
-                         <a href="index.html" id="logo" >
+                         <a href="index.php" id="logo" >
                          </a>
                     </div>
                 </div>
