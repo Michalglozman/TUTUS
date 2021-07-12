@@ -73,7 +73,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     </div>
                 </div>
             </header>
-            <br><br>
             <div hidden id="ratingDiv"><?php echo $rating; ?></div>
             <div class="main">
                 <h5>Last Ride score:</h5>
