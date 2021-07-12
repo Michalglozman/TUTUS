@@ -39,7 +39,6 @@
     <meta name="generator" content="Hugo 0.82.0">
     <title>Signin TUTUS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="js\scripts.js"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
     <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -55,7 +54,7 @@
   <body class="loginbody text-center"> 
     <main class="form-signin">
       <form action="#" method="POST">
-        <img class="mb-4" src="img/TUTUS LOGO.svg" alt="" ><br>
+        <img class="mb-4" src="img/TUTUS LOGO.svg" alt="tutus-logo" ><br>
         <p><b>Improve your e-scooter riding skills.</b></p>
         <div class="form-floating">
           <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
